@@ -1,0 +1,40 @@
+.testimonials-container{
+    width: 60%;
+    margin: 0 auto;
+}
+.client-title{
+    text-align: center;
+    padding: 2rem 0;
+}
+.testimonial{
+    background: var(--color-primary-variant);
+    padding: 4rem;
+    text-align: center;
+    border-radius: 2rem;
+    user-select: none;
+}
+.avatar{
+    width: 5rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 0.4rem solid var(--color-primary);
+}
+.client_name{
+    padding: 0.5rem 0;
+    font-size: 500;
+}
+.client_review{
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .testimonials-container{
+        width: 100%;
+    }
+    .testimonial{
+        padding: 2rem;
+    }
+
+}

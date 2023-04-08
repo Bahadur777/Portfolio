@@ -1,0 +1,48 @@
+.service-container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.service-title{
+    padding: 2rem 0;
+}
+.service{
+    width:32%;
+    background: var(--color-primary-variant);
+    border-radius: 1rem;
+    border: 1px solid var(--color-light);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.service-head{
+    background: var(--color-primary);
+    border-radius: 1rem ;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.list-item{
+    display: flex;
+    padding: 0.5rem;
+}
+.list-icons{
+    font-size: 1.5rem;
+}
+
+
+
+/* =====================MEDIA QUERIES(SMALL DEVICE)========================== */
+@media only screen and (max-width: 1020px) {
+    section{
+        height: auto;
+    }
+    .service{
+        width: 48%;
+    }
+    }
+
+    @media only screen and (max-width: 600px){
+        .service{
+            width: 100%;
+        }
+    }
